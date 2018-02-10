@@ -1,0 +1,37 @@
+{
+  "name": "time",
+  "plural": "times",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "user": {
+      "type": "string",
+      "required": true
+    },
+    "id_game": {
+      "type": "number",
+      "required": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "time": {
+      "type": "string",
+      "required": true,
+      "default": "n"
+    },
+    "proof": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
